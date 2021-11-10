@@ -102,7 +102,7 @@ p {
         padding-top: 30px;
     }
 
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
 }
