@@ -100,11 +100,35 @@ p {
         position: static;
         transform: rotate(0);
         padding-top: 30px;
+        width: 70%;
     }
 
     #title .container-fluid {
         text-align: center;
+        padding-left: 7%;
+        padding-right: 7%;
     }
+
+    .container-fluid {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+
+    .testimonial-text {
+        font-size: 2rem;
+        line-height: 1.0;
+    }
+
+    #pricing .container-fluid {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    #cta .big-heading {
+        font-size: 3.0rem;
+        line-height: 1.25;
+    }
+
 }
 
 /* Features Section */
@@ -159,9 +183,9 @@ p {
 
 /* Pricing Section */
 
-#pricing {
-    padding: 100px;
-}
+/* #pricing {
+     padding: 100px;
+} */
 
 .card-title {
     font-size: 1.5rem;
